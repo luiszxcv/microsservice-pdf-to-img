@@ -1,0 +1,19 @@
+{
+  "name": "microsservice-pdf-to-img",
+  "version": "1.0.0",
+  "description": "Microservice to convert PDF pages to images and upload to S3-compatible storage",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.750.0",
+    "express": "^4.21.0",
+    "dotenv": "^16.4.0",
+    "uuid": "^11.1.0"
+  }
+}
