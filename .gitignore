@@ -1,3 +1,4 @@
 node_modules
 .env
 tmp/
+*_deploy_key*
